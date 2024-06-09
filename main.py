@@ -2,10 +2,10 @@
 movie: str = "Interstellar"
 
 # rating of a movie
-rating: int = 5
+rating: int = 3
 
 # popularity score of a movie
-popularity: float = 90.0
+popularity: float = 72.65
 
 # Evaluate and print recommendations based on rating and popularity
 if rating >= 4 and popularity > 80:
