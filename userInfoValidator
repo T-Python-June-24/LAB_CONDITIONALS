@@ -1,0 +1,13 @@
+name = input("Please enter your name:")
+
+if len(name) > 2:
+    email = input("Please enter your email:")
+    if email[-10:] == "@gmail.com" and email.count("@") == 1:
+        print(f"welcome {name}, you registered with the email {email}")
+    else:
+        print("The email is not valid, please provide a valid email!")
+else:
+    print("The name length must be more than 2 characters, please provide a valid name!")
+
+    
+
