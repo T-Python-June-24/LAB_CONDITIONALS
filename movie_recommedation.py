@@ -1,5 +1,5 @@
 movie:str = "catch me if you can"
-rate:int = 3 # ration the move out of 5  
+rate:int = 3 # rateing the movie out of 5  
 popularity_score:float = 72.65
 if rate >= 4 and popularity_score > 80: 
     print("Highly recommended")
