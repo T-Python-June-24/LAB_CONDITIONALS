@@ -15,11 +15,11 @@
 
 ## Bonus 1
 ### write a program that Calculates the BMI (body mass index) of the user:
-- Ask the user to provide his wieght.
+- Ask the user to provide his weight.
 - Ask the user to provide his height.
 - print the BMI for the user.
 - using conditionals tell the user that either :
-- - You are overwieght you need to work out more and watch your diet.
+- - You are overweight you need to work out more and watch your diet.
 - - You are fit & healthy.
 - - You are underweight. Watch your health.
 
@@ -29,7 +29,7 @@ for formula , search the web.
 ## Bonus 2
 ### write a program that asks the user to provide his name and his email using input , then do the following:
 - Check that the name length is more than 2 characters.
-- Check that the email is valid (using string operations and coditionals)
+- Check that the email is valid (using string operations and conditionals)
 - You only accept @gmail emails . 
 - if the email is valid, display a welcome message to the user . for example :
 ```
