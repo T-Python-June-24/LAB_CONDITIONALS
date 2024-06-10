@@ -1,7 +1,6 @@
-movie = "Monk"
-rate = 3 
-popularity_score = 72.65
-
+movie:str = "Monk"
+rate:int = 2 
+popularity_score:float = 55.65
 if rate >= 4 and popularity_score > 80:
     print( "Highly recommended")
 elif rate >= 3 and popularity_score > 70:

@@ -6,7 +6,7 @@ weight = float(input("Please enter your weight in kilograms: "))
 height = float(input("Please enter your height in meters: "))
 
 # ! Calculate the BMI 
-bmi = weight / (height ** 2) #!Weight in kilograms/height in square metres thx google
+bmi = weight / (height ** 2) #! Weight in kilograms/height in square metres , thx google
 
 print("Your BMI is: ", bmi)
 
