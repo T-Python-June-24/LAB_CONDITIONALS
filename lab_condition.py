@@ -1,15 +1,14 @@
-movie_name= "inside out"
-rating = 3
-popularity = 72.65
-
-if rating >= 4 and popularity > 80:
-    print("Highly recommended")
-elif rating >= 3 and popularity > 70:
-    print("I recommended it. It is good")
-elif rating <= 2 and popularity > 60:
+my_movie:str="inside out "
+rating:int=3
+popularity:float=72.65
+if rating >=4 and popularity >80:
+    print ("Highly recommended")
+elif rating >=3 and popularity >70:
+    print("I recommended it . It is good")
+elif rating <=2 and popularity >50:
     print("You should check it out!")
-elif rating <= 2 and popularity < 50:
-  print("Don't watch it. It is a waste of time")
+elif rating <=2 and popularity <50:
+    print("Don't watch it. It is a waste of time")
 
 
 '''
@@ -22,8 +21,5 @@ elif rating <= 2 and popularity < 50:
 - - else if the movie rating is 2 or less and the popularity is greater than 60 , print "You should check it out!"
 -  - else  the movie rating is 2 or less and the popularity is less than 50 , print "Don't watch it. It is a waste of time"
 
-
-
-
-
 '''
+
